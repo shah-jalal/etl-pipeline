@@ -38,7 +38,7 @@ def main():
     key_id = 'KEY_ID' # Replace 'KEY_ID' with the ARN or alias of your KMS key
 
     # Replace 'YOUR_STRING' with the string you want to encrypt and decrypt
-    plaintext_string = 'My Name is Shah Jalal'
+    plaintext_string = 'YOUR_STRING'
 
     # Create a KMS client
     kms_client = create_kms_client(region, access_key, secret_key, role_arn)
